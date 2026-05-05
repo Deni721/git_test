@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+<div id="parent">
+    <div id="form">
+    <input id="name"  type="text" placeholder="название">
+    <input id="price" type="text" placeholder="цена">
+    <input id="amount" type="text" placeholder="кол-во">
+    <input id="add" type="button" placeholder="добавить" value="Кнопка">
+    </div>
+</div>
+<table id="table">
+    <tr>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>Кол-во</th>
+        <th>Сумма</th>
+        <th>Удалить</th>
+    </tr>
+</table>
+<div id="rezult">
+    Общий итог:<span id="total">0</span>
+</div>
 </body>
+
 </html>
